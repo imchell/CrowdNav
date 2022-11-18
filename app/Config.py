@@ -3,9 +3,9 @@
 #
 
 # should use kafka for config changes (else it uses json file)
-kafkaUpdates = False
+kafkaUpdates = True
 # the kafka host we want to send our messages to
-kafkaHost = "kafka:9092"
+kafkaHost = "localhost:9092"
 
 mqttUpdates = False
 mqttHost = "localhost"
